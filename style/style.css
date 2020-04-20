@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Alegreya Sans";
+}
+
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 792px;
+    margin-bottom: 100px;
+
+}
+  .layer{
+      background-color: rgba(0,0,0,.5);
+      width: 100%;
+      height: 100%;
+  }
+
+.nav{
+   padding:15px;
+}
+
+.nav ul{
+    overflow: auto;
+    list-style: none;
+}
+.nav-list{
+
+    float: right;
+}
+.nav ul li {
+    float: left;
+    margin-right: 60px;
+    padding-top: 40px;
+}
+
+.clr{
+    clear: both;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px; 
+}
+
+.nav .logo {
+    float: left;
+    padding-top:20px;
+    padding-left: 60px;
+}
+
+.nav .logo img {
+    width: 50%;
+}
+
+.heading {
+    width: 50%;
+    margin: 167px auto;
+    text-align: center;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.heading h4{
+    font-size:21px;
+}
+.heading h1{
+    font-size:74px;
+    margin :20px 0;
+    font-family: 'Alegreya', serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.heading p {
+    line-height: 37px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.heading .but1, .but2 {
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+    padding:18px 30px;
+    border-radius: 03px;
+    font-weight: bolder;
+}
+
+.heading .but1 {
+    border: none;
+    background-color: #8e7754;
+    margin-right: 8px;
+}
+
+.heading .but2 {
+    border: 02px solid white;
+    background-color: transparent;
+}
+
+.sec1 .sec1-img {
+    width: 42%;
+    margin-left: 72px;
+    float: left;
+    margin-bottom: 94;
+}
+
+.sec1 .sec1-img img{
+    width: 100%; 
+}
+
+.sec1 .sec1-info {
+    float: left;
+    width: 43%;
+    margin-left: 67px;
+}
+
+.sec1-info h2{
+    margin:46px 0 42px 0;
+    font-size: 42px;
+}
+
+.sec1-info p {
+    line-height: 30px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    color: #686868;
+}
+
+.sec1-info h6{
+    line-height: 61px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #686868;
+}
+
+
+.sec1-info i {
+    color: #8e7754;
+    font-size: 25;
+    border:01px solid #e3e3e3;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.sec2{
+    background-color:#f8f8f8;
+    /*! height: 626px; */
+    overflow: auto;
+}
+
+.sec2 .sec2-info {
+    float: left;
+    width: 40%;
+    margin-left: 91px;
+    margin-top: 140px;
+}
+.sec2 .sec2-img {
+    width: 46%;
+    margin-left: 31px;
+    float: left;
+    margin-top: 57px;
+    padding-bottom: 56px;
+}
+
+.sec2 .sec2-img img{
+    width: 100%;
+    /*! padding-bottom: 55px; */
+}
+
+
+.sec2-info h2{
+    margin:46px 0 42px 0;
+    font-size: 42px;
+}
+
+.sec2-info p {
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #686868;
+}
+
+.sec3{
+    width: 94%;
+    margin :0 auto;
+    text-align: center;
+}
+
+.sec3 h3{
+    margin:77px 0 20px 0;
+    font-size: 33px;
+}
+
+.sec3 h4{
+    margin:30px 0 30 0;
+}
+
+.sec3 p{
+    margin-bottom: 55px;
+    line-height: 29px;
+    color: #686868;
+}
+
+.sec3 .sec3-1 img {
+    width: 100%;
+}
+.sec3 .sec3-1 {
+    float: left;
+    width: 33%;
+    margin :0 auto;
+    padding: 20;
+}
+
+.sec4 {
+    background-color: #f8f8f8;
+    /*! height: 631px; */
+    overflow: auto;
+}
+
+.sec4 .sec4-contact h2{
+    margin-bottom: 50px;
+}
+
+.sec4 .sec4-contact p{
+    line-height: 28px;
+    color: #686868;
+}
+
+.sec4-contact h4 {
+    margin:40px 0 28px 0;
+    color: #686868;
+}
+.sec4-contact h6{
+    line-height: 61px;
+    color: #686868;
+    font-size: 16px;
+}
+
+
+.sec4-contact{
+    width:40%;
+    float: left;
+    margin-top: 75px;
+    margin-left: 69px;
+    font-size: 19px;
+    margin-bottom: 35px;
+}
+
+.sec4-contact i{
+    border:01px soild transparent;
+    background-color: #8e7754;
+    border-radius: 100%;
+    padding:11px;
+    font-size: 16px;
+    color: white;
+}
+
+.sec4-map {
+    float: left;
+    margin-top: 106px;
+    margin-left: 79px;
+}
+
+.sec5{
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-color: #403d38;
+    background-position: right center;
+    overflow: hidden;
+    
+}
+
+.sec5 ul {
+    list-style: none;
+} 
+
+.sec5 ul i{
+    font-size: 11px;
+}
+
+.sec5 ul ::after{
+    content: "";
+    margin-right: 08px;
+}
+
+.sec5 .line{
+    height: 01px;
+}
+
+.sec5 h2{
+    margin-bottom: 23px;
+    color: white;
+    font-family: Alegreya;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+.sec5 div {
+    width: 20%;
+    float: left;
+    line-height: 31px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    padding: 25px;
+    font-size: 1rem;
+    color: #fff8f8;
+
+ 
+}
+
+.sec5 hr{
+    height: 0px;
+    margin:07px 0;
+    opacity: .2;
+}
+
+
+.sec5 p:nth-of-type(2){
+    margin-top: 16px;
+}
+
+.footer{
+    background-color: #353330;
+    text-align: center;
+}
+.footer img{
+    margin-top:70px;
+    margin-bottom: 32px;
+}
+
+.footer p{
+    padding-bottom: 29px;
+    color: #969696;
+}
+
+.footer i {
+
+    font-size: 22px;
+    margin: 8px;
+    border: 01px solid transparent;
+    border-radius: 100%;
+    margin-bottom: 46px;
+    padding: 12px;
+    background-color: #484540;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width:1200px) and (min-width:902px){
+  .heading h1{
+      font-size:60px ;
+  }
+   .nav{
+       font-size: 10px;
+   }
+   .nav .logo {
+   
+   width: 80%;
+}
+.nav .logo img {
+    width: 400px;
+}
+}
+
+@media (max-width:901px) and (min-width:700px){
+    .heading h1{
+        font-size:50px ;
+    }
+    .nav .logo {
+    
+        width: 80%;
+     }
+     .nav .logo img {
+        width: 400px;
+     }
+
+  
+}
+@media (max-width:699px) {
+
+    .heading h1{
+        font-size:30px ;
+    }
+    .nav .logo {
+        text-align: center;
+        width: 100%;
+     }
+     .nav .logo img {
+         width: 100%;
+     }
+     
+     .nav .nav-list{
+         visibility: hidden;
+     }
+
+     .heading {
+  
+        margin: 5px auto;
+}
+
+
+/****Done****/
+}
